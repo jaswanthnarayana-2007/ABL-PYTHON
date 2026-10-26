@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[/Read total and attended classes/]
+    B --> C{Total > 0?}
+    C -- No --> D[Display total must be positive]
+    C -- Yes --> E{0 <= attended <= total?}
+    E -- No --> F[Display invalid attendance]
+    E -- Yes --> G[Calculate percentage]
+    G --> H{Percentage >= 75?}
+    H -- Yes --> I[Display Eligible]
+    H -- No --> J[Display Not eligible]
+    D --> K([End])
+    F --> K
+    I --> K
+    J --> K
