@@ -42,3 +42,7 @@ Demonstrates set operations and membership testing. Set display order may vary.
 ## Detailed test cases
 
 See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test cases with expected results.
+
+## Output previews
+
+See the [screenshots folder](screenshots/README.md) for illustrative terminal-style output previews for three representative test cases. These are SVG previews, not captured terminal screenshots.
