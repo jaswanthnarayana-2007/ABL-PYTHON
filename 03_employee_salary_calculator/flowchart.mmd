@@ -1,0 +1,9 @@
+flowchart TD
+    A([Start]) --> B[/Read name and basic salary/]
+    B --> C{Basic < 0?}
+    C -- Yes --> D[Display invalid salary]
+    C -- No --> E[Calculate HRA, DA and PF]
+    E --> F[Calculate gross and net salary]
+    F --> G[Display salary details]
+    D --> H([End])
+    G --> H
