@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[/Read units/]
+    B --> C{Units < 0?}
+    C -- Yes --> D[Display invalid units]
+    C -- No --> E{Units <= 100?}
+    E -- Yes --> F[Bill = units * 1.50]
+    E -- No --> G{Units <= 200?}
+    G -- Yes --> H[Bill = 150 + remainder * 2.50]
+    G -- No --> I[Bill = 400 + excess * 4]
+    F --> J[Display bill]
+    H --> J
+    I --> J
+    D --> K([End])
+    J --> K
