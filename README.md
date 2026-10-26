@@ -24,6 +24,7 @@ Each project folder contains:
 - `main.py` — runnable Python source code
 - `README.md` — documentation, algorithm, pseudocode, sample test cases and conclusion
 - `flowchart.mmd` — Mermaid flowchart source
+- `test_cases.md` — test inputs and expected outputs
 
 ## Run a program
 Open a terminal in the chosen project folder and run:
