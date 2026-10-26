@@ -38,3 +38,7 @@ END
 
 ## Conclusion
 Demonstrates list traversal, built-in functions, conditions and numeric analysis.
+
+## Detailed test cases
+
+See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test cases with expected results.
