@@ -25,6 +25,7 @@ Each project folder contains:
 - `README.md` — documentation, algorithm, pseudocode, sample test cases and conclusion
 - `flowchart.mmd` — Mermaid flowchart source
 - `test_cases.md` — test inputs and expected outputs
+- `screenshots/` — three illustrative SVG output previews per project, indexed in `screenshots/README.md` (these are previews, not real terminal captures)
 
 ## Run a program
 Open a terminal in the chosen project folder and run:
@@ -40,4 +41,4 @@ These are syllabus-aligned learning examples. Example fee rates and eligibility 
 - **Branch:** CSE
 - **Section:** CSM-7
 
-> Before final submission, verify that the selected case-study titles are permitted by the faculty's official list of 100 problems, and add actual output screenshots.
+> Before final submission, verify that the selected case-study titles are permitted by the faculty's official list of 100 problems. The included SVGs are illustrative output previews; replace them with actual terminal screenshots if your faculty requires captured screenshots.
