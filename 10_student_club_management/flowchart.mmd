@@ -1,0 +1,11 @@
+flowchart TD
+ A([Start]) --> B[/Read both club member lists/]
+ B --> C[Convert inputs to sets]
+ C --> D[Calculate union, intersection and difference]
+ D --> E[Display set results]
+ E --> F[/Read roll number to search/]
+ F --> G{In either set?}
+ G -- Yes --> H[Display member]
+ G -- No --> I[Display not a member]
+ H --> J([End])
+ I --> J
