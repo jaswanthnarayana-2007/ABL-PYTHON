@@ -1,0 +1,12 @@
+flowchart TD
+ A([Start]) --> B[/Read password/]
+ B --> C[Initialize character flags]
+ C --> D[Check each character]
+ D --> E{Length >= 8 and all flags true?}
+ E -- Yes --> F[Display Strong]
+ E -- No --> G{Length >= 6?}
+ G -- Yes --> H[Display Moderate]
+ G -- No --> I[Display Weak]
+ F --> J([End])
+ H --> J
+ I --> J
