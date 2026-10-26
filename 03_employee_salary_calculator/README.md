@@ -42,3 +42,7 @@ END
 
 ## Conclusion
 This program demonstrates variables, arithmetic expressions, input validation and output formatting.
+
+## Detailed test cases
+
+See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test cases with expected results.
