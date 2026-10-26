@@ -51,3 +51,45 @@ END
 
 ## Conclusion
 This program demonstrates lists, loops, arithmetic calculations and decision-making statements.
+
+
+## How to run
+Make sure Python 3 is installed, open a terminal in this folder, and run:
+
+```bash
+python main.py
+```
+
+## Sample run
+```text
+Enter student name: Ravi
+Enter marks for subject 1 (0-100): 85
+Enter marks for subject 2 (0-100): 90
+Enter marks for subject 3 (0-100): 78
+Enter marks for subject 4 (0-100): 88
+Enter marks for subject 5 (0-100): 89
+
+----- STUDENT RESULT -----
+Student name: Ravi
+Subject marks: [85.0, 90.0, 78.0, 88.0, 89.0]
+Total marks: 430.0 / 500
+Percentage: 86.0 %
+Result: PASS
+Grade: A
+--------------------------
+```
+
+## Concepts demonstrated
+- `input()` and `print()` for input/output
+- `float()` for type conversion
+- Lists and `append()` to store marks
+- `for` loop and `else` on a loop
+- Arithmetic operators, `sum()` and `min()`
+- `if`, `elif`, `else`, comparisons and validation
+
+## Student submission checklist
+- [ ] Run the program with valid marks.
+- [ ] Test a mark below 35 and verify the FAIL result.
+- [ ] Test a mark outside 0–100 and verify validation.
+- [ ] Capture your own terminal output screenshot.
+- [ ] Confirm grading thresholds with your faculty before final submission.
