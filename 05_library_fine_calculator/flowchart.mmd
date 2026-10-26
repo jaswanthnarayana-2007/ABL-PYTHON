@@ -1,0 +1,14 @@
+flowchart TD
+    A([Start]) --> B[/Read overdue days/]
+    B --> C{Days < 0?}
+    C -- Yes --> D[Display invalid]
+    C -- No --> E{Days = 0?}
+    E -- Yes --> F[Display no fine]
+    E -- No --> G{Days <= 5?}
+    G -- Yes --> H[Fine = days * 2]
+    G -- No --> I[Fine = 10 + extra days * 5]
+    H --> J[Display fine]
+    I --> J
+    D --> K([End])
+    F --> K
+    J --> K
