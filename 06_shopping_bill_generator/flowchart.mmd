@@ -1,0 +1,12 @@
+flowchart TD
+    A([Start]) --> B[/Read number of items/]
+    B --> C{n > 0?}
+    C -- No --> D[Display error]
+    C -- Yes --> E[Read and validate each item]
+    E --> F{All entries valid?}
+    F -- No --> G[Display validation error]
+    F -- Yes --> H[Calculate each line amount]
+    H --> I[Add and display total bill]
+    D --> J([End])
+    G --> J
+    I --> J
