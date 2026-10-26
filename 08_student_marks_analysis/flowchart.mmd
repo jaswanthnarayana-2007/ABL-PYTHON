@@ -1,0 +1,13 @@
+flowchart TD
+ A([Start]) --> B[/Read number of subjects/]
+ B --> C{n > 0?}
+ C -- No --> D[Display error]
+ C -- Yes --> E[Read and validate marks into list]
+ E --> F{All marks valid?}
+ F -- No --> G[Display invalid marks]
+ F -- Yes --> H[Calculate max, min, total and average]
+ H --> I[Count passed subjects]
+ I --> J[Display statistics]
+ D --> K([End])
+ G --> K
+ J --> K
