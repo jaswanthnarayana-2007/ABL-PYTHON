@@ -41,3 +41,7 @@ END
 
 ## Conclusion
 This program demonstrates conditions and arithmetic using a practical library example.
+
+## Detailed test cases
+
+See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test cases with expected results.
