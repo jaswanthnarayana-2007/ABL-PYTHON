@@ -1,0 +1,16 @@
+flowchart TD
+ A([Start]) --> B[Set balance = 5000]
+ B --> C[Display menu and read choice]
+ C --> D{Choice}
+ D -- 1 --> E[Display balance]
+ D -- 2 --> F[Read and validate deposit]
+ F --> G[Update balance if valid]
+ D -- 3 --> H[Read and validate withdrawal]
+ H --> I[Subtract if valid and affordable]
+ D -- 4 --> J[Display thanks]
+ D -- Other --> K[Display invalid choice]
+ E --> C
+ G --> C
+ I --> C
+ K --> C
+ J --> L([End])
