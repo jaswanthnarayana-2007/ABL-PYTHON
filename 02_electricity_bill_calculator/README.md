@@ -40,3 +40,7 @@ END
 
 ## Conclusion
 This program demonstrates arithmetic calculations and multi-branch decision-making.
+
+## Detailed test cases
+
+See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test cases with expected results.
