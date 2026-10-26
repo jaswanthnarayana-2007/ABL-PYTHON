@@ -34,4 +34,9 @@ python main.py
 
 These are syllabus-aligned learning examples. Example fee rates and eligibility thresholds are assumptions for demonstration and should be adjusted to match any official requirements supplied by the faculty.
 
-> Before final submission, verify that the selected case-study titles are permitted by the faculty's official list of 100 problems, and add your own name, roll number, branch, section, and actual output screenshots.
+## Student details
+- **Roll number:** 26001302
+- **Branch:** CSE
+- **Section:** CSM-7
+
+> Before final submission, verify that the selected case-study titles are permitted by the faculty's official list of 100 problems, and add actual output screenshots.
