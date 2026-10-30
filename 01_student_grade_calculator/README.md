@@ -93,3 +93,8 @@ Grade: A
 - [ ] Test a mark outside 0–100 and verify validation.
 - [ ] Capture your own terminal output screenshot.
 - [ ] Confirm grading thresholds with your faculty before final submission.
+
+
+## Algorithm
+
+See [algorithm.md](algorithm.md) for the step-by-step algorithm for this project.
