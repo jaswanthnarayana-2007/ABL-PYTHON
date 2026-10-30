@@ -48,3 +48,8 @@ See [test_cases.md](test_cases.md) for normal, boundary, and invalid-input test 
 ## Output previews
 
 See the [screenshots folder](screenshots/README.md) for illustrative terminal-style output previews for three representative test cases. These are SVG previews, not captured terminal screenshots.
+
+
+## Algorithm
+
+See [algorithm.md](algorithm.md) for the step-by-step algorithm for this project.
